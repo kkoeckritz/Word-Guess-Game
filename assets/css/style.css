@@ -1,4 +1,9 @@
 /* applied to elements */
+body {
+    background-color: white;
+    background-image: url("../images/funky-lines.png");
+    background-repeat: repeat;
+}
 
 a:link,
 a:visited {

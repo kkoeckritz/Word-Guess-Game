@@ -8,6 +8,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css">
+    <script src="./assets/javascript/game.js"></script>
 </head>
 <body>
     <div class="navbar clearfix">
@@ -23,8 +24,26 @@
     <br>
     <div class="main">
         <div class="content">
+            <div class="controls">
+                <h2>Mode: </h2> 
+                <select name="game_mode" id="game_mode">
+                    <option value="cars" selected>Car Brands</option>
+                    <option value="cities">Major Cities</option>
+                    <option value="food">Food</option>
+                </select>
+                <h2>Difficulty: </h2>
+                <select name="game_diff" id="game_diff">
+                    <option value="10" selected>Easy (10)</option>
+                    <option value="7">Moderate (7)</option>
+                    <option value="4">Hard (4)</option>
+                    <option value="3">Harder (3)</option>
+                    <option value="2">Brutal (2)</option>
+                </select>
+            </div>
+            <hr>
             <div class="game">
-                <script src="./assets/javascript/game.js"></script>
+                <div id="g_letters"></div>
+                div#g_
             </div>
         </div>
     </div>
