@@ -4,6 +4,8 @@
 
     Kris Koeckritz
     mod: 06/22/18
+    notes:
+        - q key does not fire keyup
 */
 
 $(document).ready(function() {
@@ -12,9 +14,15 @@ $(document).ready(function() {
     var lists = {
         food: [
             "burrito",
+            "Caesar salad",
+            "chicken parmesan",
+            "dumpling",
+            "garlic bread",
             "lasagna",
             "pasta",
             "pizza",
+            "quesadilla",
+            "ramen",
             "sandwich",
             "soup"
         ],
@@ -43,10 +51,12 @@ $(document).ready(function() {
             "Jeep",
             "Kia",
             "Koenigsegg",
+            "Lamborghini",
             "Land Rover",
             "Lexus",
             "Lincoln",
             "Lotus",
+            "Maserati",
             "Mazda",
             "McLaren",
             "Mercedes",
@@ -64,6 +74,38 @@ $(document).ready(function() {
             "Vauxhall",
             "Volkswagen",
             "Volvo"
+        ],
+        cities: [
+            "Albany",
+            "Berlin",
+            "Brooklyn",
+            "Cairo",
+            "Charlotte",
+            "Chicago",
+            "Delhi",
+            "Denver",
+            "Edinburgh",
+            "Frankfurt",
+            "Geneva",
+            "Gothenburg",
+            "Glasgow",
+            "Hamburg",
+            "Las Vegas",
+            "Liverpool",
+            "London",
+            "Los Angeles",
+            "Lucerne",
+            "Manchester",
+            "Moscow",
+            "Munich",
+            "Mumbai",
+            "New York City",
+            "Paris",
+            "Saint Petersburg",
+            "Stockholm",
+            "Venice",
+            "Yorkshire",
+            "Zurich"            
         ]
     };
 

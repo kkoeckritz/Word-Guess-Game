@@ -5,6 +5,18 @@ body {
     background-repeat: repeat;
 }
 
+h1 {
+    font-size: 20pt;
+}
+
+h2 {
+    font-size: 16pt;
+}
+
+h3 {
+    font-size: 14pt;
+}
+
 a:link,
 a:visited {
     color: #999999;
@@ -52,7 +64,6 @@ button {
 }
 
 .brand>h1 {
-    font-size: 16pt;
     font-family: 'Georgia', Times, serif;
     color: white;
 }
