@@ -174,3 +174,14 @@ button {
         float: left;
     }
 }
+
+/* for Hangman page */
+.win {
+    color: white;
+    background-color: darkgreen;
+}
+
+.lose {
+    color: white;
+    background-color: darkred;
+}

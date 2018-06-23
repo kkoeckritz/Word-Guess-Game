@@ -8,6 +8,8 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./assets/javascript/game.js"></script>
 </head>
 <body>
@@ -24,6 +26,10 @@
     <br>
     <div class="main">
         <div class="content">
+            <div class="notify" id="notify">
+                <div class="lose" id="lose"></div>
+                <div class="win" id="win"></div>
+            </div>
             <div class="controls">
                 <h2>Mode: </h2> 
                 <select name="game_mode" id="game_mode">
@@ -39,11 +45,16 @@
                     <option value="3">Harder (3)</option>
                     <option value="2">Brutal (2)</option>
                 </select>
+                <br>
+                <button type="reset" id="reset">RESET</button>
             </div>
             <hr>
-            <div class="game">
+            <div class="game" id="game">
                 <div id="g_letters"></div>
-                div#g_
+                <br>
+                <h3>Lives: </h3> <div id="g_lives"></div>
+                <br>
+                <h3>Guessed: </h3> <div id="g_guessed"></div>
             </div>
         </div>
     </div>
