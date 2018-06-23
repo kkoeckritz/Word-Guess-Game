@@ -271,4 +271,3 @@ $(document).ready(function() {
         game.initGame();
     }
 });
-
