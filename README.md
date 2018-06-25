@@ -1,13 +1,12 @@
 # Word Guess Game
 ### Cars, Cities, Food
----
+  
 Three oddly specific topics. One goal.
 This somewhat unremarkable take on the classroom favorite is written in Javascript.
   
   
 ## To run
----
-Link to ./assets/javascript/game.js in a page of your choice, then make sure these elements...
+Link to ./assets/javascript/game.js in a page of your choice, then make sure these elements
 
 ```html
 <h1>Hangman: Cars, Cities, Food</h1>
@@ -44,3 +43,4 @@ Link to ./assets/javascript/game.js in a page of your choice, then make sure the
     <h3>Guessed: </h3> <div id="g_guessed"></div>
 </div>
 ```
+or equivalent are included in your page.
